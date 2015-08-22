@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322025BB1B887AF80074ADD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322025BA1B887AF80074ADD5 /* AppDelegate.swift */; };
+		322025BD1B887AF80074ADD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322025BC1B887AF80074ADD5 /* ViewController.swift */; };
+		322025C01B887AF80074ADD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322025BE1B887AF80074ADD5 /* Main.storyboard */; };
+		322025C21B887AF80074ADD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322025C11B887AF80074ADD5 /* Assets.xcassets */; };
+		322025C51B887AF80074ADD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322025C31B887AF80074ADD5 /* LaunchScreen.storyboard */; };
+		322025D01B887AF80074ADD5 /* DoctorListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322025CF1B887AF80074ADD5 /* DoctorListTests.swift */; };
+		322025DB1B887AF80074ADD5 /* DoctorListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322025DA1B887AF80074ADD5 /* DoctorListUITests.swift */; };
+		322025EB1B88818B0074ADD5 /* DoctorListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322025EA1B88818B0074ADD5 /* DoctorListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322025CC1B887AF80074ADD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322025AF1B887AF60074ADD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322025B61B887AF60074ADD5;
+			remoteInfo = DoctorList;
+		};
+		322025D71B887AF80074ADD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322025AF1B887AF60074ADD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322025B61B887AF60074ADD5;
+			remoteInfo = DoctorList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322025B71B887AF70074ADD5 /* DoctorList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322025BA1B887AF80074ADD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322025BC1B887AF80074ADD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		322025BF1B887AF80074ADD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322025C11B887AF80074ADD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322025C41B887AF80074ADD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322025C61B887AF80074ADD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322025CB1B887AF80074ADD5 /* DoctorListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322025CF1B887AF80074ADD5 /* DoctorListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListTests.swift; sourceTree = "<group>"; };
+		322025D11B887AF80074ADD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322025D61B887AF80074ADD5 /* DoctorListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322025DA1B887AF80074ADD5 /* DoctorListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListUITests.swift; sourceTree = "<group>"; };
+		322025DC1B887AF80074ADD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322025EA1B88818B0074ADD5 /* DoctorListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322025B41B887AF60074ADD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322025C81B887AF80074ADD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322025D31B887AF80074ADD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322025AE1B887AF60074ADD5 = {
+			isa = PBXGroup;
+			children = (
+				322025B91B887AF80074ADD5 /* DoctorList */,
+				322025CE1B887AF80074ADD5 /* DoctorListTests */,
+				322025D91B887AF80074ADD5 /* DoctorListUITests */,
+				322025B81B887AF70074ADD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322025B81B887AF70074ADD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322025B71B887AF70074ADD5 /* DoctorList.app */,
+				322025CB1B887AF80074ADD5 /* DoctorListTests.xctest */,
+				322025D61B887AF80074ADD5 /* DoctorListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322025B91B887AF80074ADD5 /* DoctorList */ = {
+			isa = PBXGroup;
+			children = (
+				322025BA1B887AF80074ADD5 /* AppDelegate.swift */,
+				322025BC1B887AF80074ADD5 /* ViewController.swift */,
+				322025EA1B88818B0074ADD5 /* DoctorListTableViewCell.swift */,
+				322025BE1B887AF80074ADD5 /* Main.storyboard */,
+				322025C11B887AF80074ADD5 /* Assets.xcassets */,
+				322025C31B887AF80074ADD5 /* LaunchScreen.storyboard */,
+				322025C61B887AF80074ADD5 /* Info.plist */,
+			);
+			path = DoctorList;
+			sourceTree = "<group>";
+		};
+		322025CE1B887AF80074ADD5 /* DoctorListTests */ = {
+			isa = PBXGroup;
+			children = (
+				322025CF1B887AF80074ADD5 /* DoctorListTests.swift */,
+				322025D11B887AF80074ADD5 /* Info.plist */,
+			);
+			path = DoctorListTests;
+			sourceTree = "<group>";
+		};
+		322025D91B887AF80074ADD5 /* DoctorListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				322025DA1B887AF80074ADD5 /* DoctorListUITests.swift */,
+				322025DC1B887AF80074ADD5 /* Info.plist */,
+			);
+			path = DoctorListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322025B61B887AF60074ADD5 /* DoctorList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322025DF1B887AF80074ADD5 /* Build configuration list for PBXNativeTarget "DoctorList" */;
+			buildPhases = (
+				322025B31B887AF60074ADD5 /* Sources */,
+				322025B41B887AF60074ADD5 /* Frameworks */,
+				322025B51B887AF60074ADD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorList;
+			productName = DoctorList;
+			productReference = 322025B71B887AF70074ADD5 /* DoctorList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322025CA1B887AF80074ADD5 /* DoctorListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322025E21B887AF80074ADD5 /* Build configuration list for PBXNativeTarget "DoctorListTests" */;
+			buildPhases = (
+				322025C71B887AF80074ADD5 /* Sources */,
+				322025C81B887AF80074ADD5 /* Frameworks */,
+				322025C91B887AF80074ADD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322025CD1B887AF80074ADD5 /* PBXTargetDependency */,
+			);
+			name = DoctorListTests;
+			productName = DoctorListTests;
+			productReference = 322025CB1B887AF80074ADD5 /* DoctorListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		322025D51B887AF80074ADD5 /* DoctorListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322025E51B887AF80074ADD5 /* Build configuration list for PBXNativeTarget "DoctorListUITests" */;
+			buildPhases = (
+				322025D21B887AF80074ADD5 /* Sources */,
+				322025D31B887AF80074ADD5 /* Frameworks */,
+				322025D41B887AF80074ADD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322025D81B887AF80074ADD5 /* PBXTargetDependency */,
+			);
+			name = DoctorListUITests;
+			productName = DoctorListUITests;
+			productReference = 322025D61B887AF80074ADD5 /* DoctorListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322025AF1B887AF60074ADD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mohonish;
+				TargetAttributes = {
+					322025B61B887AF60074ADD5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					322025CA1B887AF80074ADD5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 322025B61B887AF60074ADD5;
+					};
+					322025D51B887AF80074ADD5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 322025B61B887AF60074ADD5;
+					};
+				};
+			};
+			buildConfigurationList = 322025B21B887AF60074ADD5 /* Build configuration list for PBXProject "DoctorList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322025AE1B887AF60074ADD5;
+			productRefGroup = 322025B81B887AF70074ADD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322025B61B887AF60074ADD5 /* DoctorList */,
+				322025CA1B887AF80074ADD5 /* DoctorListTests */,
+				322025D51B887AF80074ADD5 /* DoctorListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322025B51B887AF60074ADD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322025C51B887AF80074ADD5 /* LaunchScreen.storyboard in Resources */,
+				322025C21B887AF80074ADD5 /* Assets.xcassets in Resources */,
+				322025C01B887AF80074ADD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322025C91B887AF80074ADD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322025D41B887AF80074ADD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322025B31B887AF60074ADD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322025BD1B887AF80074ADD5 /* ViewController.swift in Sources */,
+				322025BB1B887AF80074ADD5 /* AppDelegate.swift in Sources */,
+				322025EB1B88818B0074ADD5 /* DoctorListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322025C71B887AF80074ADD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322025D01B887AF80074ADD5 /* DoctorListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322025D21B887AF80074ADD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322025DB1B887AF80074ADD5 /* DoctorListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		322025CD1B887AF80074ADD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322025B61B887AF60074ADD5 /* DoctorList */;
+			targetProxy = 322025CC1B887AF80074ADD5 /* PBXContainerItemProxy */;
+		};
+		322025D81B887AF80074ADD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322025B61B887AF60074ADD5 /* DoctorList */;
+			targetProxy = 322025D71B887AF80074ADD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322025BE1B887AF80074ADD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322025BF1B887AF80074ADD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322025C31B887AF80074ADD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322025C41B887AF80074ADD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322025DD1B887AF80074ADD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322025DE1B887AF80074ADD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322025E01B887AF80074ADD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohonish.DoctorList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		322025E11B887AF80074ADD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohonish.DoctorList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		322025E31B887AF80074ADD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoctorListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohonish.DoctorListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorList.app/DoctorList";
+			};
+			name = Debug;
+		};
+		322025E41B887AF80074ADD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoctorListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohonish.DoctorListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorList.app/DoctorList";
+			};
+			name = Release;
+		};
+		322025E61B887AF80074ADD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoctorListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohonish.DoctorListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoctorList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		322025E71B887AF80074ADD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoctorListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohonish.DoctorListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoctorList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322025B21B887AF60074ADD5 /* Build configuration list for PBXProject "DoctorList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322025DD1B887AF80074ADD5 /* Debug */,
+				322025DE1B887AF80074ADD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322025DF1B887AF80074ADD5 /* Build configuration list for PBXNativeTarget "DoctorList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322025E01B887AF80074ADD5 /* Debug */,
+				322025E11B887AF80074ADD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322025E21B887AF80074ADD5 /* Build configuration list for PBXNativeTarget "DoctorListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322025E31B887AF80074ADD5 /* Debug */,
+				322025E41B887AF80074ADD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322025E51B887AF80074ADD5 /* Build configuration list for PBXNativeTarget "DoctorListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322025E61B887AF80074ADD5 /* Debug */,
+				322025E71B887AF80074ADD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322025AF1B887AF60074ADD5 /* Project object */;
+}
